@@ -1,10 +1,12 @@
 import React from "react";
 import { Card } from "flowbite-react";
+import { Link} from "react-router-dom";
 
 const Movies = () => {
   return (
     <div className="container mx-auto mt-6">
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+        <Link to='/movies/detail/1'>
         <div className="mx-w-sm">
           <Card
             className="max-w-sm"
@@ -20,6 +22,7 @@ const Movies = () => {
             </p>
           </Card>
         </div>
+        </Link>
         <div className="mx-w-sm">
           <Card
             className="max-w-sm"
