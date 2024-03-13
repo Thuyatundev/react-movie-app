@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./component/Header";
 import Home from "./component/Home";
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Notfound from "./component/Notfound";
 import Detail from "./component/Detail";
 
